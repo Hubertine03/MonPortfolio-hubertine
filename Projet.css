@@ -294,7 +294,7 @@ footer {
     gap: 20px;
   }
 
-  .ligne-nom-prenom {
+  .nom-prenom {
     flex-direction: column;
   }
 
