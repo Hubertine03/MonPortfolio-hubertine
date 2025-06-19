@@ -211,95 +211,80 @@ h3 {
     flex: 1;
 }
 
-#contact form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 800px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    
-}
-
-form input, form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    margin: 15px auto 0 auto;
-    padding: 8px 15px;
-    background-color: #2c3e50;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: block;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #2c3e50;
-    align-items: center;
-    color: white;
-    padding: 10px 30px;
-    margin-top: 50px;
-}
-
 @media screen and (max-width: 768px) {
-  header, nav ul {
-    flex-direction: column;
-    text-align: center;
-  }
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  nav ul li {
-    margin: 10px 0;
-  }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 0 0 0;
+    }
 
-  #accueil {
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-  }
+    #accueil {
+        flex-direction: column;
+        padding: 30px 10px;
+        text-align: center;
+    }
 
-  #accueil img {
-    width: 250px;
-    height: 250px;
-    margin: 20px auto;
-  }
+    #accueil img {
+        width: 250px;
+        height: 250px;
+        margin: 20px 0 0 0;
+    }
 
-  #apropos {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-  }
+    #accueil-text {
+        font-size: 20px;
+        padding: 0 10px;
+    }
 
-  #apropos img {
-    margin: 20px auto;
-  }
+    #apropos-contenu {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .skills-container {
-    flex-direction: column;
-    gap: 20px;
-  }
+    #apropos img {
+        margin: 0 0 30px 0;
+        width: 200px;
+        height: 200px;
+    }
 
-  .project-boxes {
-    flex-direction: column;
-    gap: 20px;
-  }
+    #apropos-text {
+        font-size: 18px;
+        padding: 0 10px;
+    }
 
-  .nom-prenom {
-    flex-direction: column;
-  }
+    .project-boxes {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 10px;
+    }
 
-  button {
-    width: auto;
-    align-self: center;
-  }
+    .skills-container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 10px;
+    }
+
+    .nom-prenom {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #entete-contact {
+        font-size: 25px;
+        padding: 0 10px;
+    }
+
+    form {
+        padding: 0 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 }
