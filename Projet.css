@@ -251,3 +251,55 @@ footer {
     padding: 10px 30px;
     margin-top: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  header, nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  #accueil {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #accueil img {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+  }
+
+  #apropos {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #apropos img {
+    margin: 20px auto;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-boxes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ligne-nom-prenom {
+    flex-direction: column;
+  }
+
+  button {
+    width: auto;
+    align-self: center;
+  }
+}
