@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mot-cle {
+    font-weight: bolder;
+    color: rgb(68, 202, 243);
+}
+
+header h1 {
+    margin: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section d'accueil (image + texte côte à côte) */
+#accueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#accueil img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+#accueil-text {
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#accueil-text button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#apropos {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#apropos-contenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#apropos img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 250px;
+    object-fit: cover;
+}
+
+#apropos-text {
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.project-box {
+    flex: 1 1 250px;
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f3f3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.skills-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 180px;
+    flex-wrap: wrap;
+}
+
+.skill-category {
+    flex: 1 1 250px;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.skill-bar-fill {
+    background-color: #2c3e50;
+    height: 10px;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#entete-contact {
+    color: #333 ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nom-prenom {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    
+}
+
+.nom-prenom .champ {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#contact form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 15px auto 0 auto;
+    padding: 8px 15px;
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    align-items: center;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
